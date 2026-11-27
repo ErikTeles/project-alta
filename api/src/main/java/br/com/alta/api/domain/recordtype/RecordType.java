@@ -26,4 +26,5 @@ public class RecordType {
     @Column(name = "name", nullable = false)
     private String name;
 
+
 }
