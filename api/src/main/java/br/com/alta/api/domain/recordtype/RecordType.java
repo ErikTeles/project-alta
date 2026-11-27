@@ -1,14 +1,10 @@
 package br.com.alta.api.domain.recordtype;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.*;
+import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import org.hibernate.validator.constraints.br.CPF;
-
-import java.util.Date;
-import java.util.UUID;
 
 @Entity
 @Getter
@@ -25,6 +21,4 @@ public class RecordType {
     @NotBlank
     @Column(name = "name", nullable = false)
     private String name;
-
-
 }
