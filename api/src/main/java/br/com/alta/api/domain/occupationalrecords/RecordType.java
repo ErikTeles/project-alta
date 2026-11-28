@@ -1,4 +1,4 @@
-package br.com.alta.api.domain.recordtype;
+package br.com.alta.api.domain.occupationalrecords;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
