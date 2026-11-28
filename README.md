@@ -1,4 +1,4 @@
-# ALTA - Alinhamento Logística de Treinamento
+# ALTA - Análise Logística de Treinamento e Aptidão
 
 > Google Agenda com WhatsApp para treinamentos industriais.
 
